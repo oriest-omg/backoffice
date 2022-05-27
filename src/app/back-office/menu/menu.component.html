@@ -1,0 +1,164 @@
+<div id="layout-a" class="theme-blue">
+    <!-- Navigation -->
+    <div class="navigation navbar navbar-light justify-content-center px-3 px-lg-2 py-2 py-md-3 border-end">
+
+        <!-- Brand -->
+        <a href="index.html" class="mb-0 mb-lg-3 brand-icon">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 64 80" fill="none">
+                <path
+                    d="M58.8996 22.7L26.9996 2.2C23.4996 -0.0999999 18.9996 0 15.5996 2.5C12.1996 5 10.6996 9.2 11.7996 13.3L15.7996 26.8L3.49962 39.9C-3.30038 47.7 3.79962 54.5 3.89962 54.6L3.99962 54.7L36.3996 78.5C36.4996 78.6 36.5996 78.6 36.6996 78.7C37.8996 79.2 39.1996 79.4 40.3996 79.4C42.9996 79.4 45.4996 78.4 47.4996 76.4C50.2996 73.5 51.1996 69.4 49.6996 65.6L45.1996 51.8L58.9996 39.4C61.7996 37.5 63.3996 34.4 63.3996 31.1C63.4996 27.7 61.7996 24.5 58.8996 22.7ZM46.7996 66.7V66.8C48.0996 69.9 46.8996 72.7 45.2996 74.3C43.7996 75.9 41.0996 77.1 37.9996 76L5.89961 52.3C5.29961 51.7 1.09962 47.3 5.79962 42L16.8996 30.1L23.4996 52.1C24.3996 55.2 26.5996 57.7 29.5996 58.8C30.7996 59.2 31.9996 59.5 33.1996 59.5C35.0996 59.5 36.9996 58.9 38.6996 57.8C38.7996 57.8 38.7996 57.7 38.8996 57.7L42.7996 54.2L46.7996 66.7ZM57.2996 36.9C57.1996 36.9 57.1996 37 57.0996 37L44.0996 48.7L36.4996 25.5V25.4C35.1996 22.2 32.3996 20 28.9996 19.3C25.5996 18.7 22.1996 19.8 19.8996 22.3L18.2996 24L14.7996 12.3C13.8996 8.9 15.4996 6.2 17.3996 4.8C18.4996 4 19.8996 3.4 21.4996 3.4C22.6996 3.4 23.9996 3.7 25.2996 4.6L57.1996 25.1C59.1996 26.4 60.2996 28.6 60.2996 30.9C60.3996 33.4 59.2996 35.6 57.2996 36.9Z"
+                    fill="black" />
+            </svg> -->
+            <span>Moov Africa</span>
+        </a>
+
+        <!-- Menu: icon -->
+        <ul class="nav navbar-nav flex-row flex-sm-column flex-grow-1 justify-content-start py-2 py-lg-0">
+
+            <!-- Create group -->
+            <li class="nav-item"><a class="nav-link p-2 p-lg-3 d-block d-xl-none menu-toggle me-2 me-lg-0" style="cursor: pointer;" ><i class="fa fa-bars"></i></a></li>
+            <li class="nav-item"><a class="nav-link p-2 p-lg-3" href="#" title="Search" data-bs-toggle="modal" data-bs-target="#SearchModal"><i class="fa fa-search"></i></a></li>
+            <li class="nav-item"><a class="nav-link p-2 p-lg-3" href="#" title="notifications" data-bs-toggle="modal" data-bs-target="#notificationsModal"><i class="fa fa-bell-o"></i></a></li>
+            <li class="nav-item"><a class="nav-link p-2 p-lg-3" href="#" data-bs-toggle="modal" data-bs-target="#LayoutModal"><i class="fa fa-sliders"></i></a></li>
+            <li class="nav-item d-none d-sm-block"><a class="nav-link p-2 p-lg-3" href="chat.html"><i class="fa fa-comments-o"></i></a></li>
+            <li class="nav-item d-none d-sm-block flex-grow-1"><a class="nav-link p-2 p-lg-3" href="calendar.html"><i class="fa fa-calendar"></i></a></li>
+
+            <!-- Menu collapse -->
+            <li class="nav-item"><a class="nav-link p-2 p-lg-3" href="#" title="Settings" data-bs-toggle="modal" data-bs-target="#SettingsModal"><i class="fa fa-gear"></i></a></li>
+            <li class="nav-item d-none d-sm-block"><a class="nav-link p-2 p-lg-3" href="profile.html" title="Menu collapse"><i class="fa fa-user"></i></a></li>
+
+        </ul>
+
+    </div>
+    <!-- sidebar -->
+    <div class="sidebar px-3 py-2 py-md-3">
+        <div class="d-flex flex-column h-100">
+            <div class="d-flex align-items-center mb-4 mt-2">
+                <!-- <img src="/assets/images/logo.png"> -->
+                <h4 class="sidebar-title mb-0 flex-grow-1">Moov<span>-Africa</span></h4>
+                <div class="dropdown Language">
+                    <a class="nav-link text-light dropdown-toggle pulse p-0" href="#" role="button" data-bs-toggle="dropdown">
+                        <i class="fa fa-language"></i>
+                    </a>
+                    <div class="dropdown-menu rounded-lg shadow border-0 p-0 mt-2" data-bs-popper="none">
+                        <div class="card border-0">
+                            <div class="card-body">
+                                <ul class="list-unstyled menu-grid d-flex flex-wrap mb-0 rounded mx-auto">
+                                    <li>
+                                        <a class="m-link active" href="#">
+                                            <svg class="avatar mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve">
+                                            <circle style="fill:#f0f0f0" cx="256" cy="256" r="256"/>
+                                            <path style="fill:#d80027" d="M244.87 256H512c0-23.106-3.08-45.49-8.819-66.783H244.87V256zm0-133.565h229.556a257.35 257.35 0 0 0-59.07-66.783H244.87v66.783zM256 512c60.249 0 115.626-20.824 159.356-55.652H96.644C140.374 491.176 195.751 512 256 512zM37.574 389.565h436.852a254.474 254.474 0 0 0 28.755-66.783H8.819a254.474 254.474 0 0 0 28.755 66.783z"/>
+                                            <path style="fill:#0052b4" d="M118.584 39.978h23.329l-21.7 15.765 8.289 25.509-21.699-15.765-21.699 15.765 7.16-22.037a257.407 257.407 0 0 0-49.652 55.337h7.475l-13.813 10.035a255.58 255.58 0 0 0-6.194 10.938l6.596 20.301-12.306-8.941a253.567 253.567 0 0 0-8.372 19.873l7.267 22.368h26.822l-21.7 15.765 8.289 25.509-21.699-15.765-12.998 9.444A258.468 258.468 0 0 0 0 256h256V0c-50.572 0-97.715 14.67-137.416 39.978zm9.918 190.422-21.699-15.765L85.104 230.4l8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822l-21.7 15.765 8.289 25.509zm-8.289-100.083 8.289 25.509-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822l-21.7 15.765zM220.328 230.4l-21.699-15.765L176.93 230.4l8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822l-21.7 15.765 8.289 25.509zm-8.289-100.083 8.289 25.509-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822l-21.7 15.765zm0-74.574 8.289 25.509-21.699-15.765-21.699 15.765 8.289-25.509-21.7-15.765h26.822l8.288-25.509 8.288 25.509h26.822l-21.7 15.765z"/>
+                                        </svg>
+                                            <span>USA</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="m-link" href="#">
+                                            <svg class="avatar mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve">
+                                            <circle style="fill:#f0f0f0" cx="256" cy="256" r="256"/>
+                                            <path style="fill:#d80027" d="M512 256c0-110.071-69.472-203.906-166.957-240.077v480.155C442.528 459.906 512 366.071 512 256z"/>
+                                            <path style="fill:#0052b4" d="M0 256c0 110.071 69.473 203.906 166.957 240.077V15.923C69.473 52.094 0 145.929 0 256z"/>
+                                        </svg>
+                                            <span>France</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="m-link" href="#">
+                                            <svg class="avatar mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve">
+                                            <circle style="fill:#f0f0f0" cx="256" cy="256" r="256"/>
+                                            <path style="fill:#d80027" d="M512 256c0-101.494-59.065-189.19-144.696-230.598v461.195C452.935 445.19 512 357.494 512 256z"/>
+                                            <path style="fill:#6da544" d="M0 256c0 101.494 59.065 189.19 144.696 230.598V25.402C59.065 66.81 0 154.506 0 256zm189.217 0c0 36.883 29.9 66.783 66.783 66.783s66.783-29.9 66.783-66.783v-22.261H189.217V256z"/>
+                                            <path style="fill:#ff9811" d="M345.043 211.478H278.26c0-12.294-9.967-22.261-22.261-22.261s-22.261 9.967-22.261 22.261h-66.783c0 12.295 10.709 22.261 23.002 22.261h-.741c0 12.295 9.966 22.261 22.261 22.261 0 12.295 9.966 22.261 22.261 22.261h44.522c12.295 0 22.261-9.966 22.261-22.261 12.295 0 22.261-9.966 22.261-22.261h-.742c12.295 0 23.003-9.966 23.003-22.261z"/>
+                                        </svg>
+                                            <span>Mexico</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="m-link" href="#">
+                                            <svg class="avatar mb-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve">
+                                            <path style="fill:#ffda44" d="M0 256c0 31.314 5.633 61.31 15.923 89.043L256 367.304l240.077-22.261C506.367 317.31 512 287.314 512 256s-5.633-61.31-15.923-89.043L256 144.696 15.923 166.957C5.633 194.69 0 224.686 0 256z"/>
+                                            <path style="fill:#d80027" d="M496.077 166.957C459.906 69.473 366.071 0 256 0S52.094 69.473 15.923 166.957h480.154zM15.923 345.043C52.094 442.527 145.929 512 256 512s203.906-69.473 240.077-166.957H15.923z"/>
+                                        </svg>
+                                            <span>Spain</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form class="mb-2 mt-1">
+                <div class="input-group">
+                    <input type="text" class="form-control border-0" placeholder="Search...">
+                </div>
+            </form>
+
+            <!-- Menu: main ul -->
+            <ul class="menu-list flex-grow-1">
+                <li><a class="m-link active" href="Dashboard"><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
+                <li><a class="m-link" href="changer-carte-sim"><i class="fa fa-calendar"></i> <span>Remplacement carte Sim</span></a></li>
+                <li><a class="m-link" href="chat.html"><i class="fa fa-comments"></i> <span>Identification</span></a></li>
+                <li><a class="m-link" href="chat.html"><i class="fa fa-comments"></i> <span>Informations Commerciales</span></a></li>
+                <li><a class="m-link" href="chat.html"><i class="fa fa-comments"></i> <span>Profil</span></a></li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Pages" href="#"><i
+                            class="fa fa-file"></i> <span>Pages</span> <span
+                            class="arrow fa fa-dot-circle-o ms-auto text-end"></span></a>
+
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="menu-Pages">
+                        <li><a class="ms-link" href="profile.html">Profile</a></li>
+                        <li><a class="ms-link" href="profile1.html">Profile v2</a></li>
+                        <li><a class="ms-link" href="profile2.html">Profile v3</a></li>
+                        <li><a class="ms-link" href="todo.html">Todo App</a></li>
+                        <li><a class="ms-link" href="timeline.html">Timeline</a></li>
+                        <li><a class="ms-link" href="imagegallery.html">Image Gallery</a></li>
+                        <li><a class="ms-link" href="invoices.html">Invoices</a></li>
+                        <li><a class="ms-link" href="pricing.html">Pricing</a></li>
+                        <li><a class="ms-link" href="teamsboard.html">Teams Board</a></li>
+                        <li><a class="ms-link" href="faqs.html">FAQs</a></li>
+                        <li><a class="ms-link" href="file-manager.html">File Manager</a></li>
+                        <li><a class="ms-link" href="support-ticket.html">Support Ticket</a></li>
+                    </ul>
+                </li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Authentication" href="#"><i
+                            class="fa fa-lock"></i> <span>Authentication</span> <span
+                            class="arrow fa fa-dot-circle-o ms-auto text-end"></span></a>
+
+                    <!-- Menu: Sub menu ul -->
+                    <ul class="sub-menu collapse" id="menu-Authentication">
+                        <li><a class="ms-link" href="auth-signin.html">Sign in</a></li>
+                        <li><a class="ms-link" href="auth-signup.html">Sign up</a></li>
+                        <li><a class="ms-link" href="auth-password-reset.html">Password reset</a></li>
+                        <li><a class="ms-link" href="auth-two-step.html">2-Step Authentication</a></li>
+                        <li><a class="ms-link" href="auth-404.html">404</a></li>
+                    </ul>
+                </li>
+                <li><a class="m-link" href="https://alui.thememakker.com/html/documentation/w-cards.html"><i class="fa fa-puzzle-piece"></i>
+                        <span>Widget's</span></a></li>
+
+                <li class="divider mt-4 py-2 border-top"><small>DOCUMENTATION</small></li>
+                <li><a class="m-link" href="https://alui.thememakker.com/html/documentation/stater-page.html"><i class="fa fa-user"></i>
+                        <span>Stater page</span></a></li>
+                <li><a class="m-link" href="https://alui.thememakker.com/html/documentation/charts.html"><i class="fa fa-pie-chart"></i>
+                        <span>Chart's</span></a></li>
+                <li><a class="m-link" href="https://alui.thememakker.com/html/documentation/table.html"><i class="fa fa-table"></i>
+                        <span>Table Example</span></a></li>
+                <li class="collapsed">
+                    <a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Components" href="#"><i
+                            class="fa fa-code"></i> <span>UI Components</span> <span
+                            class="arrow fa fa-dot-circle-o ms-auto text-end"></span></a>
+                </li>
+                <li><a class="m-link" href="https://alui.thememakker.com/html/documentation/index.html"><i class="fa fa-file-text"></i>
+                        <span>Documentation</span></a></li>
+                <li><a class="m-link" href="https://alui.thememakker.com/html/documentation/changelog.html"><i class="fa fa-pencil"></i> <span>Changelog</span>
+                        <span id="ALUIversion"></span></a></li>
+            </ul>
+
+            <!-- Menu: menu collepce btn -->
+            <button type="button" class="btn btn-link sidebar-mini-btn text-light">
+                <span><i class="fa fa-arrow-left"></i></span>
+            </button>
+        </div>
+    </div>
+</div>
